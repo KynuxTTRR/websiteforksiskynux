@@ -10,11 +10,10 @@ export default function Index() {
       <img width="500" src="/img/bck.png" />
       </div>
         <p className="animateHeader text-4xl font-extrabold text-center text-white">
-          Astra Bot
+          TechBot
         </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
-       How about moderating your own server with Astra bot? Create your own free world and create your own playlist, experience this pleasure with the best sounds. 
-	  </p>
+Techbot ile kendi sunucunuzu yönetmeye ne dersiniz? Kendi özgür dünyanızı yaratın ve kendi çalma listenizi oluşturun, bu keyfi en iyi seslerle yaşayın.	  </p>
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
             <Link href={"https://bit.ly/3PHDjyC"}>
@@ -23,13 +22,13 @@ export default function Index() {
                   "flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " 
                 }
               >
-          Invite Astra
+          TechBotu Davet et
               </a>
             </Link>
   <div className="py-10"></div>
-  <Link href={"https://bit.ly/3LYzaDe"}>
+  <Link href={"https://bakıms/bakım"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote Astra</a>
+TechBota Oy Ver(BAKIM) </a>
   </Link>
         </div>
 
@@ -45,10 +44,10 @@ Vote Astra</a>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-y-12 lg:gap-y-0 lg:gap-x-12 py-24">
           <div className="col-span-4">
-            <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"Astra Bot" }} />
-            <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "How about creating the best environment to relax yourself with your own emotions?" }}/>
+            <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"TechBot" }} />
+            <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "TechBot'un komutlarıyla heycan yaşamaya hazırmısınız?" }}/>
             <a href="https://bit.ly/3PHDjyC" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
-              <i className="fab fa-discord mr-2" />Invite Astra
+              <i className="fab fa-discord mr-2" />TechBotu davet et
             </a>
           </div>
 
@@ -56,26 +55,20 @@ Vote Astra</a>
            
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Optimization</p>
-                  <p className="text-gray-500 line-clamp-4">With fast and customizable settings specific to your server, Astra gives you a musical pleasure to the fullest.</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Hızlı</p>
+                  <p className="text-gray-500 line-clamp-4">Tech, sunucunuza özel hızlı ve özelleştirilebilir..</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-universal-access text-2xl text-amber-500`} /> Universal</p>
-                  <p className="text-gray-500 line-clamp-4">A bot that supports multi-platform music playback. (Spotify, Souncloud, YouTube) | (It is a bot that complies with all copyrights and licenses.)</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-shield text-2xl text-amber-500`} /> Güvenlik</p>
+                  <p className="text-gray-500 line-clamp-4">Göz atabileceğiniz ve geliştirmemize yardımcı olabileceğiniz açık kaynaklı güvenli bir bot.</p>
                 </div>
               </div>
               <div>
                 <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-shield text-2xl text-amber-500`} /> Security</p>
-                  <p className="text-gray-500 line-clamp-4">An open source safe bot that you can browse and help us develop.</p>
-                </div>
-              </div>
-              <div>
-                <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-ticket text-2xl text-amber-500`} /> Support</p>
-                  <p className="text-gray-500 line-clamp-4">With our best teammates, we provide the fastest response to anyone who needs help.</p>
+                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-ticket text-2xl text-amber-500`} /> Yardım</p>
+                  <p className="text-gray-500 line-clamp-4">size 7/24 destek sağlayan ekibimizle her zaman yardım alabilirsiniz.</p>
                 </div>
               </div>
           </div>
@@ -88,7 +81,7 @@ Vote Astra</a>
                 <div className="lg:mx-4 lg:p-8 py-4 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none">
                   <img src="https://cdn.discordapp.com/attachments/737348411568685066/983094813115170866/unknown.png"  width="256" className="lg:hidden rounded-xl mb-5 shadow-xl shadow-black" />
                   <p className="text-3xl text-white font-semibold">Best Your Bot</p>
-                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">Are you ready to throw the best parties with Astra, the best and most up-to-date bot?</p>
+                  <p className="text-md text-white font-medium text-gray-500 line-clamp-5">En iyi ve en güncel bot Tech ile en iyi komutları denemeye hazır mısınız??</p>
                 </div>
                 <img src="https://cdn.discordapp.com/attachments/737348411568685066/983094813115170866/unknown.png" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
