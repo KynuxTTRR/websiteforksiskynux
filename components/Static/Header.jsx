@@ -14,7 +14,7 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
                 <div className="flex justify-between border-b border-white/20 items-center px-5 py-4">
                     <div className="flex items-center">
                         <img width="32" className="rounded-full icon-glow" src="/img/logo.jpg" />
-                        <p className=" font-extrabold ml-1 text-2xl">Tech Bot</p>
+                        <p className=" font-extrabold ml-1 text-2xl">TechBot</p>
                     </div>
                     <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
                 </div>
@@ -166,9 +166,9 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-                        <Link href="https://bit.ly/3PHDjyC">
+                        <Link href="https://bit.ly/3CFAKsT">
                             <a className="w-auto flex items-center justify-center shadow-lg gap-x-2 shadow-amber-600/20 rounded-xl py-2.5 font-medium px-7 bg-gradient-to-tl from-amber-500 to-amber-700 text-white  hover:opacity-80 transition duration-200">
-                               Invite
+                               Davet et
                             </a>
                </Link>
                     </div>
